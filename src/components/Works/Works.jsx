@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Mongo from "../../img/mongodb.png";
+import Moralis from "../../img/moralis.png";
+import Sql from "../../img/sql.jpg";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -21,18 +19,17 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            My Domains 
           </span>
-          <span>Brands & Clients</span>
+          <span>MY Working Environment</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            As a webdeveloper for backend purupose i store my db's in SQL Server &
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            MongoDB Cloud , Moralis server
             <br />
-            y dummy text of printingLorem
+             used to save db fields and to retrive it on API
             <br />
-            ispum is simpley dummy text of printing
+            
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,19 +51,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Mongo} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={Sql} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Moralis} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Mongo} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Mongo} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}
