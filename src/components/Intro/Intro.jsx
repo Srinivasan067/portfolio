@@ -29,8 +29,9 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Srinivasan</span>
+          <span>Msc.Cs</span>
           <span>
-            Web Developer & Pursuing My Final year Masters Degree in Computer Science
+            Web developer & Technical content creator
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
